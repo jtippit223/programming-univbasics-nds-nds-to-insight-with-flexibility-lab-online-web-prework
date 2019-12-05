@@ -48,6 +48,29 @@ def movies_with_director_key(name, movies_collection)
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
+  movies=
+    [
+      {
+        :title "the invincibles",
+      :worldwide_gross => 3000000 ,
+    :release_year =>2008,
+    :studio "Paramount"],
+    :director_name "John Legend"
+  }
+  {
+    :title "Spartan",
+      :worldwide_gross => 6000000 ,
+    :release_year =>2007,
+    :studio "Mage Entertainment"],
+    :director_name "Lucas Jan"}
+    {
+      :title "Rush hour2",
+      :worldwide_gross => 10000000 ,
+    :release_year =>2002,
+    :studio "20 Centurey"],
+    :director_name "Jackie Chan"
+    }
+    ]
 end
 
 
