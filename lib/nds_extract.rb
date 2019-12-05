@@ -67,8 +67,8 @@ def movies_with_director_key(name, movies_collection)
       :title "Dr. Strange",
       :worldwide_gross => 677000000 ,
     :release_year =>2016,
-    :studio ""],
-    :director_name "Jackie Chan"
+    :studio "Marvel Studios"],
+    :director_name ""
     }
     ]
 end
