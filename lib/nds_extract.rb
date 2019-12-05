@@ -51,8 +51,8 @@ def movies_with_director_key(name, movies_collection)
   movies=
     [
       {
-        :title "the invincibles",
-      :worldwide_gross => 3000000 ,
+        :title "fight club",
+      :worldwide_gross =>  ,
     :release_year =>2008,
     :studio "Paramount"],
     :director_name "John Legend"
