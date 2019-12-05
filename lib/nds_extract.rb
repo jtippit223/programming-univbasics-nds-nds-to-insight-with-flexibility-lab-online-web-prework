@@ -78,7 +78,7 @@ def gross_per_studio(collection)
     if hash[name]  
       hash[name] += total
     else
-      [name]
+      hash[name] = total
     end
     row += 1 
   end
