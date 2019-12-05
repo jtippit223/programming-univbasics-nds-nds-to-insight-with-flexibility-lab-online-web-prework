@@ -60,13 +60,13 @@ def movies_with_director_key(name, movies_collection)
   {
     :title "Donnie Darko",
       :worldwide_gross => 7500000 ,
-    :release_year =>2007,
-    :studio "Mage Entertainment"],
+    :release_year =>2001,
+    :studio ""],
     :director_name "Lucas Jan"}
     {
       :title "Rush hour2",
       :worldwide_gross => 10000000 ,
-    :release_year =>2002,
+    :release_year =>200,
     :studio "20 Centurey"],
     :director_name "Jackie Chan"
     }
