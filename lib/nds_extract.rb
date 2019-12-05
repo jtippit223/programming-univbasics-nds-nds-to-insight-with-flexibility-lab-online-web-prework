@@ -55,10 +55,10 @@ def movies_with_director_key(name, movies_collection)
       :worldwide_gross => 63000000 ,
     :release_year =>1999,
     :studio "Fox 2000"],
-    :director_name "John Legend"
+    :director_name "David Fincher"
   }
   {
-    :title "Spartan",
+    :title "",
       :worldwide_gross => 6000000 ,
     :release_year =>2007,
     :studio "Mage Entertainment"],
