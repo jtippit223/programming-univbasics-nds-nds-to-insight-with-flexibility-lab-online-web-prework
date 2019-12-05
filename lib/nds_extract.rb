@@ -64,10 +64,10 @@ def movies_with_director_key(name, movies_collection)
     :studio "Pandora"],
     :director_name "Richard Kelly"}
     {
-      :title "",
-      :worldwide_gross => 10000000 ,
-    :release_year =>200,
-    :studio "20 Centurey"],
+      :title "Dr. Strange",
+      :worldwide_gross => 677000000 ,
+    :release_year =>2016,
+    :studio ""],
     :director_name "Jackie Chan"
     }
     ]
