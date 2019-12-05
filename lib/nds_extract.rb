@@ -58,8 +58,8 @@ def movies_with_director_key(name, movies_collection)
     :director_name "David Fincher"
   }
   {
-    :title "",
-      :worldwide_gross => 6000000 ,
+    :title "Donnie Darko",
+      :worldwide_gross =>  ,
     :release_year =>2007,
     :studio "Mage Entertainment"],
     :director_name "Lucas Jan"}
