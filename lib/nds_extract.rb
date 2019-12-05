@@ -48,29 +48,13 @@ def movies_with_director_key(name, movies_collection)
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
-  movies=
-    [
-      {
-        :title "fight club",
-      :worldwide_gross => 63000000 ,
-    :release_year =>1999,
-    :studio "Fox 2000"],
-    :director_name "David Fincher"
-  }
-  {
-    :title "Donnie Darko",
-      :worldwide_gross => 7500000 ,
-    :release_year =>2001,
-    :studio "Pandora"],
-    :director_name "Richard Kelly"}
-    {
-      :title "Dr. Strange",
-      :worldwide_gross => 677000000 ,
-    :release_year =>2016,
-    :studio "Marvel Studios"],
-    :director_name "Scott Derrickson"
-    }
-    ]
+    hash = []
+  x = 0 
+  while movies_collection[col] do 
+    hash[x]= movie_with_director_name(name, movies_collection[col])  
+    x += 1
+  end
+  hash
 end
 
 
@@ -86,20 +70,19 @@ def gross_per_studio(collection)
   #
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
- ret_hash = {}
+ hash = {}
   row = 0 
   while collection[row] do
     name = collection[row][:studio]
     total= collection[row][:worldwide_gross]
-    if ret_hash[name]  
-      ret_hash[name] += total
+    if hash[name]  
+      hash[name] += total
     else
-      ret_hash[name] = total
+      [name] = total
     end
     row += 1 
   end
-  ret_hash
-end
+  hash
 end
 
 
@@ -115,14 +98,14 @@ def movies_with_directors_set(source)
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
     row = 0
-  ret_array = []
+  array = []
   while source[row] do 
     name = source[row][:name]
     movies = source[row][:movies]
-    ret_array << movies_with_director_key(name, movies)
+    array << movies_with_director_key(name, movies)
     row += 1 
   end
-  ret_array
+  array
 end
   
 end
