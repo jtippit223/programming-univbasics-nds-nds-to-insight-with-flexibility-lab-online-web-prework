@@ -54,7 +54,7 @@ def movies_with_director_key(name, movies_collection)
         :title "fight club",
       :worldwide_gross => 63000000 ,
     :release_year =>1999,
-    :studio "Paramount"],
+    :studio "Fox 2000"],
     :director_name "John Legend"
   }
   {
