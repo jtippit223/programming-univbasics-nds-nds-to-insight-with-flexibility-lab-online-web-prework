@@ -68,7 +68,7 @@ def movies_with_director_key(name, movies_collection)
       :worldwide_gross => 677000000 ,
     :release_year =>2016,
     :studio "Marvel Studios"],
-    :director_name ""
+    :director_name "Scott Derrickson"
     }
     ]
 end
