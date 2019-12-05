@@ -61,10 +61,10 @@ def movies_with_director_key(name, movies_collection)
     :title "Donnie Darko",
       :worldwide_gross => 7500000 ,
     :release_year =>2001,
-    :studio ""],
-    :director_name "Lucas Jan"}
+    :studio "Pandora"],
+    :director_name "Richard Kelly"}
     {
-      :title "Rush hour2",
+      :title "",
       :worldwide_gross => 10000000 ,
     :release_year =>200,
     :studio "20 Centurey"],
