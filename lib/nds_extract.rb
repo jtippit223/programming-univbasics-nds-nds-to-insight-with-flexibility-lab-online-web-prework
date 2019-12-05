@@ -52,7 +52,7 @@ def movies_with_director_key(name, movies_collection)
     [
       {
         :title "fight club",
-      :worldwide_gross =>  ,
+      :worldwide_gross => 63000000 ,
     :release_year =>2008,
     :studio "Paramount"],
     :director_name "John Legend"
