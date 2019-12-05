@@ -59,7 +59,7 @@ def movies_with_director_key(name, movies_collection)
   }
   {
     :title "Donnie Darko",
-      :worldwide_gross =>  ,
+      :worldwide_gross => 7500000 ,
     :release_year =>2007,
     :studio "Mage Entertainment"],
     :director_name "Lucas Jan"}
