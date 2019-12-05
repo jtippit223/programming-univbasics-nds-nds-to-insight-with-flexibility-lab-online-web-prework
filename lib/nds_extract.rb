@@ -50,8 +50,8 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
     hash = []
   x = 0 
-  while movies_collection[col] do 
-    hash[x]= movie_with_director_name(name, movies_collection[col])  
+  while movies_collection[x] do 
+    hash[x]= movie_with_director_name(name, movies_collection[x])  
     x += 1
   end
   hash
